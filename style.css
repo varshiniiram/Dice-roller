@@ -1,0 +1,38 @@
+#container{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#mylabel{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#myinput{
+    width: 150px;
+    text-align: center;
+    border: solid;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 5px;
+}
+#mybutton{
+    background-color: hsl(215, 60%, 52%);
+    border-radius: 10px;
+    font-size: 15px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#mybutton:hover{
+    background-color: hsl(215, 60%, 62%);
+}
+#DiceResult{
+    margin: 25px;
+}
+#DiceImage img{
+    margin: 5px;
+
+}
