@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dice Roller</h1>
     <div id="container">
-        <label># of dice:</label>
-        <button>Roll Dice</button>
+        <h1>Dice Roller</h1>
+        <label id = mylabel># of dice:</label>
+        <input type="number" value="1" min="1" id="myinput">
+        <button onclick="rollDice()" id="mybutton">Roll Dice</button>
+        <div id="DiceResult"></div>
+        <div id="DiceImage"></div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
